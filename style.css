@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
+    margin: 0;
+    background-color: dodgerblue;
+    color: white;
+    padding: 12 px;
+}
+
+header>nav>ul>li {
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+
+
+}
+
+header>nav>ul>li>a {
+    color: white;
+}
+
+article {
+    width: 80%;
+    margin: auto
+}
+
+article>section>form>input {
+    text-align: right;
+}
+
+.Avatar {
+    width: 150px;
+    height: auto
+}
+
+article>footer {
+    margin: 0;
+    background-color: dodgerblue;
+}
+
+article>footer>p {
+    padding: 16px;
+    text-align: center;
+    color: white;
+}
